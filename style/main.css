@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  background-image: url(/img/spring-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.8s ease-in;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .title {
+  font-size: 3.8rem;
+}
+.container .countdown {
+  display: flex;
+}
+.container .days-contain {
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+}
+.container .days-contain .days {
+  font-size: 5rem;
+  margin-right: 1.4rem;
+}
+.container .days-contain .days-text {
+  font-size: 5rem;
+}
+.container .hours-contain {
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+}
+.container .hours-contain .hours {
+  font-size: 5rem;
+  margin-right: 1.4rem;
+}
+.container .hours-contain .hours-text {
+  font-size: 5rem;
+}
+.container .minutes-contain {
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+}
+.container .minutes-contain .minutes {
+  font-size: 5rem;
+  margin-right: 1.4rem;
+}
+.container .minutes-contain .minutes-text {
+  font-size: 5rem;
+}
+.container .seconds-contain {
+  display: flex;
+  align-items: center;
+}
+.container .seconds-contain .seconds {
+  font-size: 5rem;
+  margin-right: 1.4rem;
+}
+.container .seconds-contain .seconds-text {
+  font-size: 5rem;
+}/*# sourceMappingURL=main.css.map */

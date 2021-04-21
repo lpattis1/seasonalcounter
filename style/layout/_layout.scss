@@ -1,0 +1,86 @@
+
+
+.container {
+    background-image: url(/img/spring-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s ease-in;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    .title {
+        font-size: 3.8rem;
+    }
+
+    .countdown {
+        display: flex;
+    }
+
+
+    .days-contain {
+        margin-right: 5rem;
+
+        display: flex;
+        align-items: center;
+
+        .days {
+            font-size: 5rem;
+            margin-right: 1.4rem;
+        }
+
+        .days-text {
+            font-size: 5rem;
+        }
+    }
+
+    .hours-contain {
+        margin-right: 5rem;
+
+        display: flex;
+        align-items: center;
+
+        .hours {
+            font-size: 5rem;
+            margin-right: 1.4rem;
+        }
+
+        .hours-text {
+            font-size: 5rem;
+        }
+    }
+
+    .minutes-contain {
+        margin-right: 5rem;
+
+        display: flex;
+        align-items: center;
+
+        .minutes {
+            font-size: 5rem;
+            margin-right: 1.4rem;
+        }
+
+        .minutes-text {
+            font-size: 5rem;
+        }
+    }
+
+    .seconds-contain {
+
+        display: flex;
+        align-items: center;
+
+        .seconds {
+            font-size: 5rem;
+            margin-right: 1.4rem;
+        }
+
+        .seconds-text {
+            font-size: 5rem;
+        }
+    }
+}
